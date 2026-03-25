@@ -1,5 +1,5 @@
 pkgname=mechanical-keyboard-debounce
-pkgver=0.1.0
+pkgver=0.1.1
 pkgrel=1
 pkgdesc="Debounce filter for a specific evdev keyboard device using a virtual uinput keyboard"
 arch=('any')
@@ -8,7 +8,7 @@ license=('WTFPL')
 depends=('python' 'python-evdev')
 source=('debounce.py'
         'mechanical-keyboard-debounce.service')
-sha256sums=('9343809163e14706da6bcaf63987cb4c3c7b1ec413b891b04e3095461aa066a6'
+sha256sums=('4fc3891ec58297fc70e3b61f5f8e005e8af6456121cb862a20a80cf82e789a5d'
             'SKIP')
 
 package() {

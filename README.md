@@ -1,7 +1,7 @@
 how to configure (arch or arch-based distro):
 
 1) run evtest
-2) get your device name (exact name)
+2) get your keyboard device name (exact name)
 
 ```
 ...
@@ -12,9 +12,10 @@ how to configure (arch or arch-based distro):
 /dev/input/event8:	SINO WEALTH Trust GXT 871 ZORA Keyboard
 /dev/input/event9:	Video Bus
 ```
-for ex, it's `SINO WEALTH Trust GXT 871 ZORA` for me:
+for ex, it's `SINO WEALTH Trust GXT 871 ZORA`
 
 3) edit `mechanical-keyboard-debounce.service` with your keyboard name (l.21)
+optional: you can ignore some keys (useful for modifiers like ctrl that may bounce while held)
 4) run makepkg -si
 
 goodbye multiple inputs in a few ms :]

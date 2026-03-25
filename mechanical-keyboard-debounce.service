@@ -18,7 +18,7 @@ Group=root
 
 # verbose
 Environment=PYTHONUNBUFFERED=1
-ExecStart=/usr/bin/env python3 /usr/local/bin/debounce.py "SINO WEALTH Trust GXT 871 ZORA"
+ExecStart=/usr/bin/env python3 /usr/local/bin/debounce.py "SINO WEALTH Trust GXT 871 ZORA" --ignored-keys KEY_LEFTCTRL KEY_LEFTSHIFT
 
 # Restart if it crashes for some reason
 Restart=on-failure

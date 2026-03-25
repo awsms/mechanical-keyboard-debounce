@@ -1,0 +1,5 @@
+#makepkg stuff
+*.tar.zst
+src/
+pkg/
+tmp/
